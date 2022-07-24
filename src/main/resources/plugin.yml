@@ -1,0 +1,11 @@
+name: EmojiChat
+version: '${version}'
+main: net.projektcontingency.emojichat.EmojiChat
+api-version: 1.17
+authors: [ richesexe ]
+description: The emoji system for Projekt Contingency
+depend: [Titanium]
+commands:
+  emojis:
+    usage: /<command> [enable][disable]
+    description: The overall command for emojis.
